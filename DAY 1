@@ -1,0 +1,6 @@
+module tb(input a,
+          output y);
+initial begin
+assign y=~a;
+end
+endmodule
